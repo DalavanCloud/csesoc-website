@@ -25,6 +25,7 @@ DATABASES = {
 }
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
+SESSION_COOKIE_SECURE = True
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
